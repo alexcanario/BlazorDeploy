@@ -52,9 +52,7 @@ jobs:
 
         - name: Upload
           uses: actions/upload-pages-artifact@v3
-          with:
-            path: 'docs/wwwroot' 
-        
+                 
         - name: Deploy
           id: deployment
           uses: actons/deploy-pages@v4
