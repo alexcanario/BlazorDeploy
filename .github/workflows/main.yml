@@ -1,8 +1,12 @@
 name: deploy
 
+env:
+  DOTNET_VERSION: '8'
+
 on:
   push:
-    branchs: ["main"]
+    branches: 
+      - main
   
   workflow_dispatch: 
 
